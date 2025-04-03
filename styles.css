@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0faff; /* Light cyan */
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0073b1;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Make Name Bigger */
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00eaff;
+}
+
+/* Responsive Navigation */
+@media (max-width: 900px) {
+    nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #0073b1;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .menu-open nav {
+        display: block;
+    }
+}
+
+/* Fix Section Overlap Due to Fixed Header */
+section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 50px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fix List Alignment in "Programming Languages" */
+#languages ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+
+/* Social Media Links */
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0073b1;
+}
+
+/* Icons */
+.social-links i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white; 
+}
+#education {
+    padding: 50px 20px;
+    background-color: #f0faff; /* Light cyan */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    color: #0073b1;
+    font-size: 22px;
+}
+
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0073b1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #005b8e;
+}
+
