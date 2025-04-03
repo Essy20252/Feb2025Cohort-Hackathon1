@@ -96,3 +96,22 @@ Feel free to reach out! [Contact Form](link-to-your-contact-form)
 
 We’re excited to see your unique creations! ✨  
 Happy coding, and good luck! 🍀  
+
+## My Portfolio Website
+
+This is my personal portfolio, showcasing the projects I’ve worked on and my skills.
+
+### Technologies Used:
+- HTML
+- CSS
+
+### How to View:
+You can view my live portfolio at: https://estherirunguportfolio.netlify.app/
+
+## Projects:
+- [Project 1] https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-html-5-Essy20252.git
+- [Project 2] https://github.com/PLP-WebTechnologies/feb-2025-advanced-html-Essy20252.git
+- [Project 3] https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-css-Essy20252.git
+
+### Contact:
+You can reach me via the contact form on my portfolio website.
